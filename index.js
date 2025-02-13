@@ -5,6 +5,10 @@ import pg from "pg"
 const port = 3000;
 const app = express();
 
+app.post('/register',(req,res)=>{
+    
+})
+
 app.get('/',(req,res)=>{
     res.render("index.ejs");
 })
